@@ -1,0 +1,265 @@
+/*HEADER*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: #3D3B3C;
+    overflow: hidden;
+}
+header img{
+    width: 10%;
+    float: left;
+}
+header h2{
+    margin-top: 1%;
+    font-size: 5em;
+}
+nav ul{
+    margin-top: 2%;
+    float: right;
+}
+nav ul li a{
+    font-size: 2em;
+    color: #DBD7D9;
+}
+/*FIN HEADER*/
+
+/*TORSO 1*/
+.torso_superior{
+    overflow: hidden;
+    /*border: 1px solid black;*/
+    position: relative;
+    
+}
+.torso_superior::before{
+    content: "";
+    background-image: url(../imagenes/fondo1.jpg);
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.torso_superior form{
+    width: 22%;
+    border-radius: 2%;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -30%;
+    margin-bottom: 3%;
+    margin-right: 10%;
+    float: right;
+    background-color: white;
+    border: 1px solid #3D3B3C;
+    border
+}
+.torso_superior form h3{
+    font-size: 1.2em;
+}
+.torso_superior form input[type=text],input[type=email]{
+    width: 95%;
+    margin-bottom: 5%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #EBE8EA;
+    outline: none;
+}
+.torso_superior form input[type=text]:focus,input[type=email]:focus{
+    border-bottom: 3px solid #3D3B3C;
+}
+.torso_superior form hr{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.torso_superior form input[type=button]{
+    padding: 5px 10px;
+    margin-bottom: 8%;
+    background-color: #3D3B3C;
+    color: white;
+    border-radius: 10px;
+}
+.torso_superior .cuadro1{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 40%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+}
+.torso_superior .cuadro1::before{
+    background-color: #3D3B3C;
+    opacity: .6;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.torso_superior .cuadro2{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 30px;
+    color: whitesmoke;
+    width: 25%;
+    position: relative;
+    padding-left: 10px;
+}
+.torso_superior .cuadro2::before{
+    background-color: #3D3B3C;
+    opacity: .6;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+/*FIN TORSO 1*/
+
+/*TORSO 2*/
+.torso2{
+    font-size: 1.5em;
+    width: 90%;
+    text-align: justify;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.torso2 h2{
+    font-weight: lighter;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.torso2 hr{
+    width: 80%;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+/*MISION*/
+.contenedor-mision{
+    overflow: hidden;
+    font-size: 50px;
+}
+.contenedor-mision .imagenMision{
+    overflow: hidden;
+    /**margin-bottom: 5%;*/
+    background-color: #6A6969;
+}
+.contenedor-mision .imagenMision img{
+    width: 50%;
+    float: left;
+
+}
+.contenedor-mision h2{
+    float: left;
+    margin-left: 18%;
+    margin-top: 13%;
+    font-size: 80px;
+    color: #ffffff;
+}
+.Mision{
+    /*border: solid 3px black;*/
+    position: absolute;
+    float: left;
+    width: 50%;
+    font-size: 30px;
+    background-color: #ffffff;
+    color: #6A6969;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: justify;
+    padding: 5px;
+}
+
+/*VISION*/
+.contenedor-vision{
+    overflow: hidden;
+    font-size: 50px;
+}
+.contenedor-vision .imagenVision{
+    overflow: hidden;
+    /**margin-bottom: 5%;*/
+    background-color: #6A6969;
+}
+.contenedor-vision .imagenVision img{
+    width: 50%;
+    float: right;
+
+}
+.contenedor-vision h2{
+    float: left;
+    margin-left: 15%;
+    margin-top: 13%;
+    font-size: 80px;
+    color: #ffffff;
+}
+.Vision{
+    /*border: solid 3px black;*/
+    position: absolute;
+    float: left;
+    width: 50%;
+    font-size: 30px;
+    background-color: #ffffff;
+    color: #474646;
+    margin-top: 5%;
+    margin-left: 40%;
+    text-align: justify;
+    padding: 5px;
+}
+
+/*Objetivos*/
+.objetivos{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.objetivos .tituloObjetivos h2{
+    font-weight: lighter;
+    letter-spacing: 5px;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.objetivos hr{
+    width: 80%;
+    border: 1px solid;
+    margin: auto;
+}
+.objetivos label{
+    font-size: 2em;
+}
+.objetivos p{
+    font-size: 1.5em;
+    margin: auto;
+    text-align: justify;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+.objetivos label{
+    text-align: center;
+}
+footer{
+    background-color: #3D3B3C;
+    text-align: center;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
