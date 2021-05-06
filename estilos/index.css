@@ -11,20 +11,19 @@ header{
     overflow: hidden;
 }
 header img{
-    width: 10%;
-    float: left;
-}
-header h2{
-    margin-top: 1%;
-    font-size: 5em;
+    width: 6%;
+    margin-left: 10%;
 }
 nav ul{
-    margin-top: 2%;
-    float: right;
+    margin-top: 4%;
+    margin-left: 30%;
 }
 nav ul li a{
     font-size: 2em;
-    color: #DBD7D9;
+    color: whitesmoke !important;
+}
+nav ul li a:hover{
+    color: gray !important;
 }
 /*FIN HEADER*/
 
@@ -262,4 +261,144 @@ footer{
     text-align: center;
     font-size: 1.5em;
     color: whitesmoke;
+}
+
+
+@media only screen and (max-width: 720px){
+/*HEADER*/
+header img{
+    width: 20%;
+    float: left;
+    border-radius: 5%;
+}
+header img{
+    width: 15%;
+    margin-left: 5%;
+}
+nav ul{
+    margin-left: 0;
+
+}
+nav ul li a{
+    font-size: 1em;
+    color: whitesmoke !important;
+}
+/*FIN HEADER*/
+
+/*TORSO 1*/
+.torso_superior::before{
+    background-size: auto;
+}
+
+.torso_superior form{
+    width: 42%;
+    border-radius: 5%;
+    font-size: 0.9em;
+    margin-top: -55%;
+    margin-bottom: 1%;
+}
+.torso_superior form input[type=text],input[type=email]{
+    width: 85%;
+    margin: 0;
+}
+.torso_superior form input[type=button]{
+    padding: 5px 20px;
+    margin-bottom: 3%;
+}
+.torso_superior .cuadro1{
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 40%;
+    font-size: 0.8em;
+}
+.torso_superior .cuadro2{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 0.8em;
+    width: 30%;
+}
+/*FIN TORSO 1*/
+
+/*TORSO 2*/
+.torso2{
+    font-size: 0.8em;
+    width: 90%;
+    text-align: justify;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.torso2 h2{
+    font-weight: lighter;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.torso2 hr{
+    width: 80%;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+/*MISION*/
+.contenedor-mision{
+    font-size: 2em;
+}
+.contenedor-mision h2{
+    margin-left: 20%;
+    margin-top: 13%;
+    font-size: 0.8em;
+}
+.Mision{
+    width: 65%;
+    font-size: 0.32em;
+    color: black;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 3px;
+}
+
+/*VISION*/
+.contenedor-vision{
+    font-size: 1.8em;
+}
+.contenedor-vision h2{
+    margin-left: 2%;
+    margin-top: 13%;
+    font-size: 0.8em;
+}
+.Vision{
+    width: 74%;
+    font-size: 0.33em;
+    color: #474646;
+    margin-top: 1%;
+    margin-left: 25%;
+    padding: 3px;
+}
+
+/*Objetivos*/
+.objetivos .tituloObjetivos h2{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.objetivos hr{
+    width: 90%;
+}
+.objetivos label{
+    font-size: 2em;
+}
+.objetivos p{
+    font-size: 1em;
+}
+.objetivos label{
+    text-align: center;
+}
+footer{
+    padding: 5px;
+    font-size: 1em;
+    color: whitesmoke;
+}
+
 }

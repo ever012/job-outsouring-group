@@ -1,3 +1,4 @@
+<!--HEAD-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,35 +9,37 @@
     
     <link rel="stylesheet" href="estilos/index.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </head>
 <body>
     <header>
-        <img src="imagenes/jog.jpeg" alt="job outsoursing group">
-        <nav class="">
-            <ul class="nav">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <img src="imagenes/jog-remove.png" alt="job outsoursing group">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Inicio</a>
+                  <a class="nav-link" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Outsourcing</a>
+                  <a class="nav-link" href="Outsourcing.html">Outsourcing</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Recursos humanos</a>
-                </li>
+                  <a class="nav-link" href="recursos_humanos.html">Recursos humanos</a>
+                </li> 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contáctenos</a>
-                  </li>
+                  <a class="nav-link" href="contactenos.html">Contáctenos</a>
+                </li>  
               </ul>
-        </nav>
-        <!--h2 class="titulo"><span class="typed"></span></h2>
-        <div class="titulo" id="cadenas-texto">
-            <p><i class="empresa">Job outsouring Group</i></p>
-        </div-->
+            </div>  
+          </nav>
     </header>
+<!--FIn-->
 
     <div class="torso_superior">
         <p class="cuadro1">¡SOMOS EL APOYO QUE TU EMPRESA NECESITA!</p>
@@ -69,7 +72,7 @@
         <h2><i>Nuestra política de calidad</i></h2>
             Brindar un servicio de calidad, amabilidad, respeto y esmero a todos los clientes, cumpliendo las
             normativas legales y principios éticos y morales, garantizando la estabilidad laboral de nuestros
-            empleados
+            empleados.
     </div>
 
     <div class="mision y vision">
@@ -99,7 +102,7 @@
                 <label for="" class="general">General</label><br><br>
                 <p>
                     • Elaborar un manual de funciones para “Job Outsourcing Group” para ser un instrumento de apoyo que
-                    defina y establezca las funciones, responsabilidades, los tramos de control y canales de comunicación
+                    defina y establezca las funciones ,&nbsp; responsabilidades, los tramos de control y canales de comunicación
                     de todos los puestos de trabajo, para así normalizar todas las actividades y procedimientos de la
                     empresa.
                 </p>
@@ -115,11 +118,21 @@
         </div>
     </div>
 
+<!--PIE DE PAGINA-->
     <footer>
         <span>Job Outsouring Group - El Salvador © 2021 Todos los derechos reservados. 😃</span>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="js/main.js"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
 </body>
 </html>
+<!--FIN-->

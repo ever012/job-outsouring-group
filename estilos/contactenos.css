@@ -1,0 +1,79 @@
+.contactenos{
+    margin: auto;
+    width: 50%;
+    padding: 3%;
+    border: 1px solid gray;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.contactenos label{
+    font-size: 1.2em;
+}
+.contactenos input{
+    width: 45%;
+    
+
+}
+.contactenos .correo,.telefono{
+    float: right;
+    margin-right: 30%;
+}
+.contactenos #correo,#telefono{
+    float: right;
+    margin: 0;
+}
+.contactenos input[type="button"]{
+    background-color: #3D3B3C;
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 22%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 2%;
+}
+.contactenos img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 720px){
+    .contactenos{
+        width: 90%;
+        padding: 1%;
+        border: 1px solid gray;
+        border-radius: 2%;
+        
+    }
+    .contactenos h2{
+        font-size: 1.3em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .contactenos label{
+        font-size: 0.8em;
+    }
+    .contactenos input{
+        width: 45%;
+        
+    
+    }
+    .contactenos .correo,.telefono{
+        margin-right: 27%;
+    }
+    .contactenos #correo,#telefono{
+        margin-right: 4%;
+    }
+    .contactenos input[type="button"]{
+        background-color: #3D3B3C;
+        color: whitesmoke;
+        font-size: 1em;
+        margin-left: 25%;
+        border-radius: 5%;
+    }
+    .contactenos img{
+        width: 100%;
+    }
+
+
+
+}

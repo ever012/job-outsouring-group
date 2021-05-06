@@ -1,0 +1,53 @@
+.outsourcing{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    overflow: hidden;
+}
+.outsourcing h2{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+}
+.outsourcing hr{
+    width: 80%;
+    border: 1px solid;
+    margin: auto;
+}
+.outsourcing p img{
+    width: 30%;
+    float: left;
+}
+.outsourcing p{
+    margin-top: 3%;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 720px){
+    .outsourcing{
+        width: 90%;
+        margin-top: 5%;
+    }
+    .outsourcing h2{
+        font-size: 1em;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .outsourcing hr{
+        width: 80%;
+        border: 1px solid;
+        margin: auto;
+    }
+    .outsourcing p img{
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+    .outsourcing p{
+        margin-top: 1%;
+        font-size: 1em;
+        text-align: justify;
+    }
+
+}

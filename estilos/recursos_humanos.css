@@ -1,0 +1,53 @@
+.rrhh{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    overflow: hidden;
+
+}
+.rrhh h2{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bolder;
+}
+.rrhh hr{
+    width: 80%;
+    border: 1px solid;
+    margin: auto;
+    margin-bottom: 3%;
+}
+.rrhh img{
+    width: 80%;
+    margin-left: 10%;
+}
+.rrhh .rh{
+    
+    margin-top: 3%;
+    font-size: 1.8em !important;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 720px){
+.rrhh{
+    width: 90%;
+    margin-top: 1%;
+}
+.rrhh h2{
+    margin-top: 2%;
+    font-size: 1.5em;
+}
+.rrhh hr{
+    width: 90%;
+    border: 1px solid #3D3B3C;;
+}
+.rrhh img{
+    width: 100%;
+    margin: auto;
+}
+.rrhh .rh{
+    font-size: 0.8em !important;
+}
+
+
+
+
