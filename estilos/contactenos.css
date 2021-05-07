@@ -22,15 +22,10 @@
     float: right;
     margin: 0;
 }
-.contactenos input[type="button"]{
-    background-color: #3D3B3C;
-    color: whitesmoke;
+.contactenos .btn-info{
     font-size: 1.5em;
     font-weight: bold;
-    margin-left: 22%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    border-radius: 2%;
+    margin-left: 35%;
 }
 .contactenos img{
     width: 100%;
@@ -63,12 +58,10 @@
     .contactenos #correo,#telefono{
         margin-right: 4%;
     }
-    .contactenos input[type="button"]{
+    .contactenos .btn-info{
         background-color: #3D3B3C;
-        color: whitesmoke;
         font-size: 1em;
         margin-left: 25%;
-        border-radius: 5%;
     }
     .contactenos img{
         width: 100%;
