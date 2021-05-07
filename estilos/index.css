@@ -81,12 +81,9 @@ nav ul li a:hover{
     margin: auto;
     margin-bottom: 5%;
 }
-.torso_superior form input[type=button]{
-    padding: 5px 10px;
+.torso_superior form .btn-info{
     margin-bottom: 8%;
-    background-color: #3D3B3C;
-    color: white;
-    border-radius: 10px;
+    font-weight: bold;
 }
 .torso_superior .cuadro1{
     margin-top: 5%;
@@ -301,9 +298,10 @@ nav ul li a{
     width: 85%;
     margin: 0;
 }
-.torso_superior form input[type=button]{
-    padding: 5px 20px;
-    margin-bottom: 3%;
+.torso_superior form .btn-info{
+    margin-bottom: 8%;
+    font-size: smaller;
+    font-weight: bold;
 }
 .torso_superior .cuadro1{
     margin-top: 10%;
@@ -321,7 +319,7 @@ nav ul li a{
 
 /*TORSO 2*/
 .torso2{
-    font-size: 0.8em;
+    font-size: 0.95em;
     width: 90%;
     text-align: justify;
     margin: auto;

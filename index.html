@@ -53,7 +53,32 @@
             <input type="email" name="correo" id="" placeholder="Correo electronico">
             <input type="text" name="telefono" id="" placeholder="Telefono">
             <br><br>
-            <input type="button" value="Enviar" onclick="alert('Su formulario ha sido enviado 😃, nos pondremos en contacto con tigo lo más pronto posible. 😉');">
+
+            <!-- Modal -->
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Enviar</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog modal-lg">
+              
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    
+                    <h4 class="modal-title" style="font-weight: bolder;">Envio de Formulario</h4>
+                    <button type="button" class="close" data-dismiss="modal" >&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Su formulario ha sido enviado 😃, nos pondremos en contacto con tigo lo más pronto posible. 😉</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
         </form>
     </div>
     
@@ -69,8 +94,8 @@
                 <br><br>
                 Si necesitas encontrar el mejor talento para tú empresa, cuenta con nuestro equipo para realizar la Selección de Personal.
         </p>
-        <h2><i>Nuestra política de calidad</i></h2>
-            Brindar un servicio de calidad, amabilidad, respeto y esmero a todos los clientes, cumpliendo las
+        <h2><i>Nuestra política de calidad es</i></h2>
+            <b>*</b> Brindar un servicio de calidad, amabilidad, respeto y esmero a todos los clientes, cumpliendo las
             normativas legales y principios éticos y morales, garantizando la estabilidad laboral de nuestros
             empleados.
     </div>
